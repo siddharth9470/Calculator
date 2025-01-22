@@ -88,7 +88,7 @@ export default function Calculator() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#f5f5f5",
+    backgroundColor: "#f1f1f1",
     padding: 20,
   },
   display: {
@@ -116,9 +116,9 @@ const styles = StyleSheet.create({
   operationButton: {
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: "#007AFF",
+    backgroundColor: "#ccc",
   },
   buttonText: {
-    fontSize: 20,
+    fontSize: 15,
   },
 });
